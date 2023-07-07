@@ -6,10 +6,11 @@
   }
 
   &__inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin-right: 64px;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
   }
 
   &__form {
@@ -86,6 +87,10 @@
     &:not(:last-child) {
       margin-bottom: 20px;
     }
+  }
+
+  &__geolocation {
+    font-size: 16px;
   }
 
   &__link {

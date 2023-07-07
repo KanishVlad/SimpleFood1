@@ -29,7 +29,7 @@ body {
   font-size: 36px;
   color: $title;
   font-weight: 500;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .link {
@@ -115,6 +115,7 @@ body {
 }
 
 .logo {
+  display: block;
   border: 2px solid transparent;
   border-radius: 5px;
   transition: border-color 0.5s, opacity 0.5s;
@@ -156,12 +157,12 @@ body {
     border-radius: 10px;
     transition: transform 0.5s, outline-color 0.5s;
 
-    &:hover {
-      transform: scale(1.1);
-    }
-
     &:focus {
       outline-color: $accent;
+    }
+
+    &:hover {
+      transform: scale(1.1);
     }
 
     &:active {
@@ -185,3 +186,4 @@ body {
     font-weight: 500;
   }
 }
+
